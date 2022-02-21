@@ -15,30 +15,38 @@ wifi module on the tank.</p>
 
 
 ## Pin Connections
-  An Romeo microcontroller is an arduino that contains an integrated H bridge to deliver power to the motors.
-The motors are connected to the motor A and motor B sockets. The motors are controlled by 4 pins that are prewired as the following:
+#### Romeo
+A Romeo microcontroller is an arduino that contains an integrated H bridge to deliver power to the motors. The motors are connected to the motor A and motor B sockets. The motors are controlled by 4 pins that are prewired as the following:
+   
 - M1 = 4
 - E1 = 5
 - E2 = 6
 - M2 = 7
 
-
 The motor (M) pins control the direction the motors spin while the enable (E) pins control the speed. You will need to set these pins accordingly
-to make the tanks move.</p>
+to make the tanks move.
+
   <img src="./img/romeo.png" alt="Sensor" width="500">
-   The ultrasonic sensor is useful for detecting obstacles immediately infront of the tank. It has 4 pin connections:
-   - Vcc = 5V
-   - Trig = 8
-   - Echo = 9
-   - Gnd = Gnd
+
+#### Ultrasonic Sensor
+The ultrasonic sensor is useful for detecting obstacles immediately infront of the tank. It has 4 pin connections:
+- Vcc = 5V
+- Trig = 8
+- Echo = 9
+- Gnd = Gnd
+
   <img src="./img/ultrasonic.jpg" alt="Sensor" width="250">
-The wifi module helps connect to the vision system and deliver the current position of the aruco marker on your tank. More detailed information can be found on
-http://enes100.umd.edu/. It has 4 pin connections:
+  
+  
+#### Wifi Module
+The wifi module helps connect to the vision system and deliver the current position of the aruco marker on your tank. More detailed information can be found on http://enes100.umd.edu/. It has 4 pin connections:
 - Gnd = Gnd
 - Vcc = 5V
 - Tx = 10
 - Rx = 11
-  <img src="./img/img_wifi.jpg"alt="Sensor" width="250">
+
+<img src="./img/img_wifi.jpg" alt="Sensor" width="250">
+
 
 ## Coding the Tank
 The side where the ultrasonic sensor sits is the front of the tank. The Upload port sticks out at the front; this is where you can upload your own code.
