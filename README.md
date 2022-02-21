@@ -27,6 +27,10 @@ The motor (M) pins control the direction the motors spin while the enable (E) pi
 to make the tanks move.</p>
   <img src="./img/romeo.png" alt="Sensor" width="500">
    The ultrasonic sensor is useful for detecting obstacles immediately infront of the tank. It has 4 pin connections:
+   - M1 = 5V
+- E1 = 8
+- E2 = 9
+- M2 = GND
    - Vcc = 5V
    - Trig = 8
    - Echo = 9
