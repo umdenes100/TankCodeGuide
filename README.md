@@ -3,10 +3,9 @@ A readme on the pin connections of all tanks, how to upload code, and sample pro
 
 # Hotrod-Tanks
 Navigational tanks created to supplement student coding curriculum in ENES100.
-[![Simulator Image Capture](https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/IMG_0786.jpg =250x)](http://enes100.umd.edu/libraries/PhysicalTankCodeGuide)
 
 <p align="left">
-  <img src="./img/IMG_0786.jpg" alt="Hotrod Tank" width="250">
+  <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/IMG_0786.jpg" alt="Hotrod Tank" width="250">
   <img src="./img/IMG_0788.jpg" alt="Internals and wiring" width="250">
   <img src="./img/IMG_0789.jpg" alt="Wifi module placement" width="450">
   <p> Figure 1 shows a general picture of a tank. They have swappable wheels to test out different ideas in prototyping.
