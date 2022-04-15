@@ -3,7 +3,7 @@ A readme on the pin connections of all tanks, how to upload code, and sample pro
 
 # Hotrod-Tanks
 Navigational tanks created to supplement student coding curriculum in ENES100.
-[![Simulator Image Capture](https://raw.githubusercontent.com/umdenes100/TankCodeGuide/img/IMG_0786.jpg "The Vision System Simulator (Click me)")](http://enes100.umd.edu/simulatorweb)
+[![Simulator Image Capture](https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/IMG_0786.jpg "The Vision System Simulator (Click me)")](http://enes100.umd.edu/libraries/PhysicalTankCodeGuide)
 
 <p align="left">
   <img src="./img/IMG_0786.jpg" alt="Hotrod Tank" width="250">
