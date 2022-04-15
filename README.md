@@ -5,7 +5,7 @@ A readme on the pin connections of all tanks, how to upload code, and sample pro
 Navigational tanks created to supplement student coding curriculum in ENES100.
 
 <p align="left">
-  <img src="/TankCodeGuide/img/IMG_0786" alt="Hotrod Tank" width="250">
+  <img src="TankCodeGuide/img/IMG_0786" alt="Hotrod Tank" width="250">
   <img src="./img/IMG_0788.jpg" alt="Internals and wiring" width="250">
   <img src="./img/IMG_0789.jpg" alt="Wifi module placement" width="450">
   <p> Figure 1 shows a general picture of a tank. They have swappable wheels to test out different ideas in prototyping.
