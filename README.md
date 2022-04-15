@@ -6,8 +6,8 @@ Navigational tanks created to supplement student coding curriculum in ENES100.
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/IMG_0786.jpg" alt="Hotrod Tank" width="250">
-  <img src="./img/IMG_0788.jpg" alt="Internals and wiring" width="250">
-  <img src="./img/IMG_0789.jpg" alt="Wifi module placement" width="450">
+  <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/IMG_0788.jpg" alt="Internals and wiring" width="250">
+  <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/IMG_0789.jpg" alt="Wifi module placement" width="450">
   <p> Figure 1 shows a general picture of a tank. They have swappable wheels to test out different ideas in prototyping.
 Figure 2 shows how the tanks are wired internally. More detailed descriptions are given later on. Figure 3 shows where to place the 
 wifi module on the tank.</p>
@@ -26,7 +26,7 @@ A Romeo microcontroller is an arduino that contains an integrated H bridge to de
 The motor (M) pins control the direction the motors spin while the enable (E) pins control the speed. You will need to set these pins accordingly
 to make the tanks move.
 
-  <img src="./img/romeo.png" alt="Sensor" width="500">
+  <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/romeo.png" alt="Sensor" width="500">
 
 #### Ultrasonic Sensor
 The ultrasonic sensor is useful for detecting obstacles immediately infront of the tank. It has 4 pin connections:
@@ -35,7 +35,7 @@ The ultrasonic sensor is useful for detecting obstacles immediately infront of t
 - Echo = 9
 - Gnd = Gnd
 
-  <img src="./img/ultrasonic.jpg" alt="Sensor" width="250">
+  <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/ultrasonic.jpg" alt="Sensor" width="250">
   
   
 #### Wifi Module
@@ -45,7 +45,7 @@ The wifi module helps connect to the vision system and deliver the current posit
 - Tx = 10
 - Rx = 11
 
-<img src="./img/img_wifi.jpg" alt="Sensor" width="250">
+<img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/img_wifi.jpg" alt="Sensor" width="250">
 
 
 ## Coding the Tank
