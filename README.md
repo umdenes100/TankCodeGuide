@@ -3,7 +3,6 @@ A readme on the pin connections of all tanks, how to upload code, and sample pro
 
 # Hotrod-Tanks
 Navigational tanks created to supplement student coding curriculum in ENES100.
-![Drag Racing](./img/IMG_0786.jpg)
 
 <p align="left">
   <img src="/TankCodeGuide/img/IMG_0786" alt="Hotrod Tank" width="250">
