@@ -1,10 +1,9 @@
-# TankCodeGuide
-A readme on the pin connections of all tanks, how to upload code, and sample programs to help students get started.
+
 
 # Hotrod-Tanks
 Navigational tanks created to supplement student coding curriculum in ENES100.
 
-<p align="left">
+<p align="center">
   <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/IMG_0786.jpg" alt="Hotrod Tank" width="250">
   <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/IMG_0788.jpg" alt="Internals and wiring" width="250">
   <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/IMG_0789.jpg" alt="Wifi module placement" width="450">
