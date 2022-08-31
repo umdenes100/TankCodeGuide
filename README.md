@@ -36,7 +36,7 @@ The ultrasonic sensor is useful for detecting obstacles immediately infront of t
 - Echo = 9
 - Gnd = Gnd
 
-  <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/ultrasonic.jpg" alt="Sensor" width="250">
+<img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/ultrasonic.jpg" alt="Sensor" width="250">
   
   
 #### Wifi Module
