@@ -26,7 +26,7 @@ A Romeo microcontroller is an arduino that contains an integrated H bridge to de
 The motor (M) pins control the direction the motors spin while the enable (E) pins control the speed. You will need to set these pins accordingly
 to make the tanks move.
 
-  <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/romeo.png" alt="Sensor" width="500">
+<img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/romeo.png" alt="Sensor" width="500">
 
 #### Ultrasonic Sensor
 The ultrasonic sensor is useful for detecting obstacles immediately infront of the tank. It has 4 pin connections:
@@ -40,7 +40,7 @@ The ultrasonic sensor is useful for detecting obstacles immediately infront of t
   
   
 #### Wifi Module
-The wifi module helps connect to the vision system and deliver the current position of the aruco marker on your tank. More detailed information can be found on http://enes100.umd.edu/. It has 4 pin connections:
+The wifi module helps connect to the vision system and deliver the current position of the aruco marker on your tank. It has 4 pin connections:
 - Gnd = Gnd
 - Vcc = 5V
 - Tx = 10
