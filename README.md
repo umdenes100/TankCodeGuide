@@ -19,7 +19,7 @@ wifi module on the tank, which is on the velcro.</p>
 
 ## Pin Connections
 #### Romeo
-A Romeo microcontroller is an arduino that contains an integrated H bridge to deliver power to the motors. The motors are connected to the motor A and motor B sockets. The motors are controlled by 4 pins that are prewired as the following:
+A Romeo microcontroller is an Arduino that contains an integrated H bridge to deliver power to the motors. The motors are connected to the motor A and motor B sockets. The motors are controlled by 4 pins that are prewired as the following:
    
 - M1 = 4
 - E1 = 5
@@ -32,7 +32,7 @@ to make the tanks move.
   <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/romeo.png" alt="Sensor" width="500">
 
 #### Ultrasonic Sensor
-The ultrasonic sensor is useful for detecting obstacles immediately infront of the tank. It has 4 pin connections:
+The ultrasonic sensor will detect objects in front of it, and output the distance. It has 4 pin connections:
 - Vcc = 5V
 - Trig = 8
 - Echo = 9
@@ -42,7 +42,7 @@ The ultrasonic sensor is useful for detecting obstacles immediately infront of t
   
   
 #### Wifi Module
-The wifi module helps connect to the vision system and deliver the current position of the aruco marker on your tank. It has 4 pin connections:
+The wifi module connects to the vision system and delivers the last known position of the Aruco marker on your tank. It has 4 pin connections:
 - Gnd = Gnd
 - Vcc = 5V
 - Tx = 10
@@ -51,11 +51,11 @@ The wifi module helps connect to the vision system and deliver the current posit
 <img src="https://raw.githubusercontent.com/umdenes100/TankCodeGuide/master/img/img_wifi.jpg" alt="Sensor" width="250">
 
 
-## Coding the Tank
-The side where the ultrasonic sensor sits is the front of the tank. The Upload port sticks out at the front; this is where you can upload your own code.
+## Programming the Tank
+The side where the ultrasonic sensor sits is the front of the tank. You can upload your code by using the port located at the front of the tank.
 
 ### Motor Code
-To make the motors move forward you have to modify the enable and motor pins.
+The code below will help you move your tank forward.
 ```
   //initializes or declares variables. Convention for hard coded values such as pins
   #define M1 4
@@ -136,7 +136,7 @@ void getDistance(){
 }
 ```
 ### Wifi Module code
-The following will get you to print the distance from the ultrasonic sensor onto the vision system rather than the serial monitor.
+The following code will get you to print the distance from the ultrasonic sensor onto the vision system.
 
 ```
 // ---------------------------------------------------------------- //
