@@ -13,6 +13,9 @@ Navigational tanks created to supplement student coding curriculum in ENES100.
 wifi module on the tank, which is on the velcro.</p>
 </p>
 
+## Prerequesites
+1. Have Arduino installed on your computer. The download link can be found [here](https://www.arduino.cc/en/software)
+2. Download the ENES 100 library [here](http://enes100.umd.edu/libraries/enes100)
 
 ## Pin Connections
 #### Romeo
@@ -39,7 +42,7 @@ The ultrasonic sensor is useful for detecting obstacles immediately infront of t
   
   
 #### Wifi Module
-The wifi module helps connect to the vision system and deliver the current position of the aruco marker on your tank. More detailed information can be found on http://enes100.umd.edu/. It has 4 pin connections:
+The wifi module helps connect to the vision system and deliver the current position of the aruco marker on your tank. It has 4 pin connections:
 - Gnd = Gnd
 - Vcc = 5V
 - Tx = 10
@@ -133,7 +136,7 @@ void getDistance(){
 }
 ```
 ### Wifi Module code
-To use the wifi module you will need to follow the instructions on http://enes100.umd.edu/libraries/enes100 to install the library and learn the basics. The following will get you to print the distance from the ultrasonic sensor onto the vision system rather than the serial monitor.
+The following will get you to print the distance from the ultrasonic sensor onto the vision system rather than the serial monitor.
 
 ```
 // ---------------------------------------------------------------- //
