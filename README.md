@@ -68,3 +68,32 @@ void setup() {
 - Use the ultrasonic sensor to detect obstacles and avoid them by turning.
 - Use the location data from the vision system to find your way past the log or the limbo to the end.
 - You can choose to do this however you like!
+
+## Pin Diagram
+In case you would like to write your own functions, here are the pinouts for the tanks:
+```
+#define PIN_MOTOR_1_FORWARD 11
+#define PIN_MOTOR_1_REVERSE 10
+#define PIN_MOTOR_2_FORWARD 9
+#define PIN_MOTOR_2_REVERSE 8
+#define PIN_MOTOR_3_FORWARD 4
+#define PIN_MOTOR_3_REVERSE 5
+#define PIN_MOTOR_4_FORWARD 2
+#define PIN_MOTOR_4_REVERSE 3
+// Bump Sensors
+#define PIN_BUMP_FRONT 32
+#define PIN_BUMP_REAR 33
+// Ultrasonic Sensors
+#define PIN_US_FRONT_TRIG 18
+#define PIN_US_FRONT_ECHO 19
+#define PIN_US_REAR_TRIG 27
+#define PIN_US_REAR_ECHO 26
+// Infrared Sensors
+#define PIN_IR_1 15
+#define PIN_IR_2 17
+#define PIN_IR_3 14
+#define PIN_IR_4 16
+// WiFi Modules
+#define PIN_WIFI_TX 52
+#define PIN_WIFI_RX 50
+```
