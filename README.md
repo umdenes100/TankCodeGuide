@@ -19,6 +19,7 @@ In order to remove the propulsion modules, remove the wheels by turning counter 
 
 ## Programming the Tank
 
+**Please read more information on the Tank library (applicable to both the simulator and tanks) on Libraries->Tank.**
 The front of the tank is marked by the forward facing arrow.
 
 ### Motor Code
@@ -46,16 +47,19 @@ The code below will help you move your tank forward.
 #include "Tank.h"
 void setup() {
   Tank.begin();
+  Enes100.begin("Alec B Lahr", MATERIAL, arucoID, 52, 50);
 }
 void loop() {
-  Tank.setRightMotorPWM(pwm);
+  // Will print to vision system!
+  Enes100.print("Ultrasonic Reading: ");
+  Enes100.println(Tank.readDistanceSensor(1));
 }
 ```
 ### Wifi Module code
 
 The following code will allow you to connect to the vision system, and prints a message.
 
-```ino
+```cpp
 #include "Enes100.h" //libraries are included at the very top of the program
 #include "Tank.h"
 
