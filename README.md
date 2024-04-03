@@ -2,11 +2,11 @@
 
 Navigational tanks created to supplement student coding curriculum in ENES100.
 
-![Image of Assembled Tank](img/IMG_0814.jpg)
+![Image of Assembled Tank](/img/tank.jpg)
 
 The tank has swappable propulsion modules, including a few seen here:
 
-![Image of several different Tank undercarriage modules including Mecanum wheels, regular wheels, and caster whees](img/IMG_0817.jpg)
+![Image of several different Tank undercarriage modules including Mecanum wheels, regular wheels, and caster whees](/img/tankswheels.jpg)
 
 In order to remove the propulsion modules, remove the wheels by turning counter clockwise and then slide the module out.
 
